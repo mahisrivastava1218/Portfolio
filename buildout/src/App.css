@@ -1,12 +1,33 @@
+/* nav section */
 .navbar-nav .navbar-link{
     padding-left: 1rem;
     padding-right: 1rem;
 }
 .nav-item{
-    padding: 15px;
-    font-size: 1.2rem;
-    font-weight: bold;
+    padding: 16px;
+    font-size: 1.3rem;
+    font-weight: bolder;
 }
 .navbar .nav-item:hover{
   border-bottom: 2px solid yellow;
+}
+
+/* Home section */
+.home{
+    height: 80vh;
+    border: 1px solid brown;
+}
+.home .right-section .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+     /* height: 350px; */
+     /* background-color: yellow; */
+}
+.home .right-section .img img{
+     height: 30%;
+     width:60%;
+     /* border: 1px solid red; */
+     border-radius: 50%;
 }
